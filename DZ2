@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt 
+import numpy as np
+
+circle_center = (0, 0) 
+circle_radius = 3
+
+theta = np.linspace(0, 2 * np.pi, 100)
+
+x_coordinates = circle_center[0] + circle_radius * np.cos(theta) 
+y_coordinates = circle_center[1] + circle_radius * np.sin(theta)
+
+plt.plot(x_coordinates, y_coordinates) 
+plt.xlabel('X coordinates')
+plt.ylabel('Y coordinates') 
+plt.title('Circle Plot') 
+plt.grid(True) 
+plt.axis('equal') 
+plt.show()
