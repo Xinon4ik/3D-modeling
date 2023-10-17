@@ -1,0 +1,17 @@
+import matplotlib.pyplot as plt
+
+# Set the coordinates of the starting and ending points of the line
+start_x, start_y = 0, 0
+end_x, end_y = 5, 5
+
+# Create a list of points for the line
+line_x = [start_x, end_x]
+line_y = [start_y, end_y]
+
+# Plot the line
+plt.plot(line_x, line_y)
+plt.xlabel('X-coordinates')
+plt.ylabel('Y-coordinates')
+plt.title('Line Plot')
+plt.grid(True)
+plt.show()
