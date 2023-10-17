@@ -1,3 +1,4 @@
+#ПОСТРОЕНИЕ ПРЯМОЙ
 import matplotlib.pyplot as plt
 
 start_x, start_y = 0, 0
