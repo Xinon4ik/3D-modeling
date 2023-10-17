@@ -1,3 +1,4 @@
+#Задача про отсечение выпуклым многоугольком 
 from PIL import Image, ImageOps
 import matplotlib.pyplot as plt
 
